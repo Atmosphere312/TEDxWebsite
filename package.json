@@ -1,0 +1,11 @@
+{
+  "name": "TEDx-Website",
+  "description": "V1 run though",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x",
+    "bower": "1.3.x",
+    "grunt": "0.4.x"
+  }
+}
