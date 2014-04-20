@@ -1,4 +1,4 @@
-
+html,body{margin:0; padding:0;}
 body, .exo{
     font-family: "Exo 2" !important;
 
@@ -11,3 +11,30 @@ font-family: 'Exo 2', sans-serif;
 
 
  */
+
+.layer-1{
+    z-index: 1;
+}
+
+
+
+.layer-2{
+    z-index: 2;
+}
+
+.img-1{
+    background-image: url(http://gallery.hd.org/_exhibits/places-and-sights/_more2005/_more06/US-CA-San-Francisco-Polk-intersection-street-sign-people-pedestrians-crossing-the-road-urban-landscape-grainy-mono-DHD.jpg);
+    background: no-repeat scroll;
+    background-position: 0 0;
+    background-attachment: fixed;
+    height: 400px;
+    min-width: 100%;
+    background-size: cover;
+}
+
+.fixed{
+    position: fixed;
+}
+.relative{
+    position: relative;
+}
